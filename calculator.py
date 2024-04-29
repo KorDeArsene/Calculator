@@ -1,6 +1,7 @@
 from PyQt5.QtWidgets import QApplication, QWidget, QVBoxLayout, QHBoxLayout, QPushButton, QLineEdit
 from PyQt5.QtGui import QFont
 
+#Core element PyQt5
 app = QApplication([])
 win = QWidget()
 win.setWindowTitle('Ultimate Calculator 9000')
@@ -8,7 +9,8 @@ win.resize(300, 450)
 
 font = QFont()
 font.setPointSize(50)
-# mantap
+
+
 button_1 = QPushButton('1')
 button_1.setFixedSize(75, 50)
 button_2 = QPushButton('2')
